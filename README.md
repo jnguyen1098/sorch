@@ -20,4 +20,5 @@ All arrays will only be generated if you successfully sort the last ones. If TES
 
 That means aside from the intermediate array printing that happens before the program's finish, you can only really feel confident about your algorithm if you see the text "All tests passed".
 
-
+### Running
+If you want to use the `makefile` you may run it by simply typing `make`, though if you just want to compile it, you may type `make compile`. By default, `make` will compile and run it. If you want to run it under `valgrind` then type `make valgrind`.
