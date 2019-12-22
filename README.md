@@ -1,5 +1,5 @@
 # Sorch
-This is a testing harness for people looking to improve their sorting algorithm prowess.
+This is a testing harness for people looking to practice their sorting algorithm skills.
 
 This program generates a random array(s), where you're instructed to solve this array (and insert your sorting code on line 58). At that point, the program tests if the resultant array is sorted or not. The sorting must be done in-place.
 
