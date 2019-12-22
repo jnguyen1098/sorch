@@ -8,7 +8,7 @@ Using the preprocessor parameters, you are instructed to set your own as you see
 ### Preprocessor Parameters
 
 #### TES
-This is the number of arrays to generate.
+This is the number of tests (1 test = 1 array) to run.
 
 #### NUM
 This is the number of integers that will be generated in each array. 
