@@ -43,13 +43,15 @@ int is_sorted(int arr[])
 
 int main(void)
 {
+    // randomize
+    srand(time(NULL));
+
     // initiate tests
     printf("Starting Tests...\n\n");
     for (int i = 0; i < TES; i++)
     {
         /* create random array */
         int arr[NUM];
-        srand(time(NULL));
         make_array(arr);
 
         printf("START: ");
@@ -67,6 +69,6 @@ int main(void)
         }
     }
 
-    printf("All tests passed\n");
+    printf("Smoke test passed. Please verify results manually.\n");
     return 0;
 }
